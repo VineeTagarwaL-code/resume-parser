@@ -9,7 +9,6 @@ async function sendToGemini(text: string) {
      1. Provide the resumein Json Format 
      2. Give links instead of text that are hyperlinks
      3. Give the description of everything in the form of array
-     4. Make sure all links given are valid and correct
      6. Make sure that its a proper json format that can be parsed successfully
       If it is not a valid resume,  Respond with "This is not a valid resume": ${text}
     `;
